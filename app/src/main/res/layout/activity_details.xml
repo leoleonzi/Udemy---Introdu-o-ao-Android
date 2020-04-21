@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/original"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".view.DetailsActivity">
+
+    <TextView
+        android:id="@+id/voce_vai_participar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/voce_vai_participar"
+        android:textSize="20dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_below="@id/voce_vai_participar"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorAccent" />
+
+    <CheckBox
+        android:id="@+id/check_participate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/voce_vai_participar"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="300dp"
+        android:text=" Você vai participar?"
+        android:textSize="20dp"
+
+        />
+
+</RelativeLayout>
